@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <style>
+        body {
+            background-color: rgb(236, 226, 226);
+            background-image: url('wp13865960.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+
+        }
+
+        .div {
+            text-align: center;
+            border: 3px solid rgb(0, 255, 149);
+            border-radius: 30px;
+            padding: 5px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 8px 50px rgba(0, 0, 0, 0.70);
+            background-color: rgba(63, 196, 230, 0.6);
+            width: 450px;
+            margin-left: 37.3%;
+            margin-top: 110px;
+            color: rgb(10, 10, 10)
+        }
+
+        * {
+            text-align: center;
+        }
+
+        .input {
+            text-align: center;
+            border: 2px solid rgb(0, 255, 234);
+            border-radius: 150px;
+            padding: 5px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="h1">Cadastro de pedidos</h1>
+    <div class="div">
+        <form class="form" action="Pedido.php" method="post">
+            <label class="input" for="número">Número do pedido</label>
+            <input class="input" type="number" id="número" name="número" required>
+            <br><br>
+
+            <label class="input" for="data">Data do pedido</label>
+            <input class="input" type="date" id="data" name="data" required>
+            <br><br>
+
+            <label class="input" for="tabela">Tabela</label>
+            <input class="input" type="tabela" id="tabela" name="tabela" required>
+            <br><br>
+
+            <label class="input" for="nome">Nome do cliente</label>
+            <input class="input" type="text" id="nome" name="nome" required>
+            <br><br>
+
+            <label class="input" for="endereco">Endereço do cliente</label>
+            <input class="input" type="text" id="endereco" name="endereco" required>
+            <br><br>
+
+            <label class="input" for="cep">CEP do cliente</label>
+            <input class="input" type="text" id="cep" name="cep" required>
+            <br><br>
+
+            <label class="input" for="cidade">Cidade</label>
+            <input class="input" type="text" id="cidade" name="cidade" required>
+            <br><br>
+
+            <label class="input" for="estado">Estado</label>
+            <input class="input" type="text" id="estado" name="estado" required>
+            <br><br>
+
+            <label class="input" for="Telefone">Telefone</label>
+            <input class="input" type="tel" id="telefone" name="telefone" required>
+            <br><br>
+
+            <label class="input" for="data">Data de entrega</label>
+            <input class="input" type="date" id="data_entrega" name="data_entrega" required>
+            <br><br>
+            <input class="form" type="submit" value="Cadastrar">
+
+
+        </form>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

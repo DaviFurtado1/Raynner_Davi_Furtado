@@ -1,0 +1,61 @@
+        .h1 {
+            text-align: center;
+            color: rgb(92, 250, 0);
+            border: 2px solid rgb(0, 255, 242);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+            font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+
+        body {
+            background-color: rgb(236, 226, 226);
+            background-image: url('_image/wp13865960.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-image: url(_image/thumb-1920-1375140.png);
+            
+        }
+
+        .div {
+            text-align: center;
+            border: 3px solid rgb(0, 255, 149);
+            border-radius: 30px;
+            padding: 5px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 8px 50px rgba(0, 0, 0, 0.70);
+            background-color: rgba(63, 196, 230, 0.6);
+            width: 450px;
+            margin-left: 37.3%;
+            margin-top: 110px;
+            color: rgb(10, 10, 10)
+        }
+        
+
+        * {
+            text-align: center;
+        }
+
+        .input {
+            text-align: center;
+            border: 2px solid rgb(0, 255, 234);
+            border-radius: 150px;
+            padding: 5px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+
+        .option {
+            text-align: center;
+        }
+
+        * {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+            font-style: italic;
+        }
