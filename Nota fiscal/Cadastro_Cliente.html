@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do cliente</title>
+    <link rel="stylesheet" href="Cadastro_Cliente.css">
+</head>
+<body>
+  <h1>Cadastro do cliente</h1>
+  <div>
+    <form action="Cadastro.php" method="post">
+        <label for="nome">Nome do cliente</label>
+        <input type="text" id="nome" name="nome" required>
+        <p></p>
+        <label for="endereço">Endereço</label>
+        <input type="text" id="endereco" name="endereco" required>
+        <p></p>
+        <label for="endereço">CPF</label>
+        <input type="number" id="CPF" name="CPF" required>
+        <p></p>
+        <label for="Telefone">Telefone do cliente</label>
+        <input type="tel" id="telefone" name="telefone" required>
+        <p></p>
+        <label for="CNPJ">CNPJ do cliente</label>
+        <input type="number" id="CNPJ" name="CNPJ">
+        <p></p>
+        <input class="form" type="submit" value="Cadastrar">
+    </form>
+  </div>
+    
+</body>
+</html>
